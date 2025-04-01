@@ -19,18 +19,3 @@ provider "azurerm" {
   subscription_id = "a028cb2d-f614-40fe-bbe1-cbd3fde8da46"
   # other provider properties
 }
-
-# other resources
-
-# Create a resource group
-#resource "azurerm_resource_group" "MIC-RG" {
-#  name     = "TERRA-RG"
-#  location = "WestUS"
-#}
-
-resource "azurerm_resource_group" "MIC-RGNEWs" {
-  name     = "TERRA-RGNEW"
-  location = "WestUS"
-}
-
-

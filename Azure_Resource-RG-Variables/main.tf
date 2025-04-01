@@ -33,4 +33,8 @@ resource "azurerm_resource_group" "MIC-RGNEWs" {
   location = "WestUS"
 }
 
-
+resource "azurerm_resource_group" "RGVAR" {
+    name = var.rg_name
+    location = var.location
+  
+}
